@@ -1,6 +1,11 @@
 h1, h2, footer {
     text-align: center;
+    
 }
-p{
-    background-color: darkgrey
+
+h2{
+    color:lightpink
+}
+body{
+    background-color: gray;
 }
