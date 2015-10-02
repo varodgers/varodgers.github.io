@@ -3,9 +3,21 @@ h1, h2, footer {
     
 }
 
-h2{
-    color:lightpink
+h2 {
+    /*color:#FF5CD6;
+    color:#EFBCC9;*/
+    
+    color:aliceblue;
+
+    font-family: Garamond, serif;
 }
-body{
-    background-color: gray;
+body {
+    background-color: #8C8C8C;
+}
+
+a:hover {
+    /*color: #FFBCC0;*/
+    color: plum;
+	font-weight: lighter;
+	text-decoration: none;
 }
