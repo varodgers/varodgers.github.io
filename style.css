@@ -3,6 +3,10 @@ h1, h2, footer {
     
 }
 
+border {
+    width: 1px solid pink;
+}
+
 h2 {
     /*color:#FF5CD6;
     color:#EFBCC9;*/
@@ -20,4 +24,19 @@ a:hover {
     color: plum;
 	font-weight: lighter;
 	text-decoration: none;
+}
+
+div{
+    margin-bottom: 1em;
+    border: 1px solid lightgray;
+    background-color:lightgray;
+}
+
+.circle {
+display: inline-block;
+	margin-left: 5px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 2px solid black;
 }
