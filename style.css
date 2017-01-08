@@ -1,42 +1,105 @@
-h1, h2, footer {
-    text-align: center;
-    
-}
-
-border {
-    width: 1px solid pink;
-}
-
-h2 {
-    /*color:#FF5CD6;
-    color:#EFBCC9;*/
-    
-    color:aliceblue;
-
-    font-family: Garamond, serif;
-}
-body {
-    background-color: #8C8C8C;
+a {
+    color: black;
 }
 
 a:hover {
-    /*color: #FFBCC0;*/
-    color: plum;
-	font-weight: lighter;
-	text-decoration: none;
+    color: pink;
 }
 
-div{
-    margin-bottom: 1em;
-    border: 1px solid lightgray;
-    background-color:lightgray;
+#about {
+    padding-top: 50px;
 }
 
-.circle {
-display: inline-block;
-	margin-left: 5px;
-	height: 100px;
-	width: 100px;
-	border-radius: 100%;
-	border: 2px solid black;
+.bgimage {
+    background-image: url("http://i328.photobucket.com/albums/l335/ginKanom/wetplatecat_zpshludk7ch.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 600px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+}
+
+div.navbar.navbar-default {
+    font-family: 'Italiana', serif;
+    margin-bottom: 0;
+}
+
+div.thumbnail {
+    border-style: none;
+}
+
+footer {
+    padding-right: 10px;
+    text-align: right;
+    font-size: .75em;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Italiana', serif;
+    font-size: 1.75em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h4 {
+    color: #f48cb7;
+}
+
+hr {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    opacity: .5;
+    filter: alpha(opacity=40);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100)
+}
+
+.thumbnail a>img,
+.thumbnail>img {
+    border: 0 px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar>.container .navbar-brand:hover {
+    color: pink;
+}
+
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+}
+
+.caption {
+    color: pink;
+}
+
+ul.list-unstyled.list-inline.social {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.v {
+    font-family: 'Italiana', serif;
+    font-size: 150px;
+    padding-left: 40px;
 }
