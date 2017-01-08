@@ -75,7 +75,8 @@ img:hover {
 
 .thumbnail a>img,
 .thumbnail>img {
-    border: 0 px;
+    border: 0px;
+    height: 164.02px;
 }
 
 .navbar-default .navbar-nav>li>a:hover,

@@ -1,0 +1,376 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    min-height: 100%;
+}
+
+main {
+    padding-bottom: 1em;
+    flex: 1;
+}
+
+.footer {
+    padding: 30px 0;
+    text-align: left;
+    font-size: .75em;
+}
+
+img {
+    display: block;
+    position: static;
+    float: left;
+    max-width: 960px;
+    margin: 30px 0;
+}
+
+/* Links */
+
+nav {
+    border-top: 1px solid black; /* border on top of nav */
+    margin: 1em 0;
+}
+
+nav > ul {
+    border-bottom: 1px solid black; /* border under nav */
+}
+
+#nav_menu > ul > li > ul {
+    z-index: 5;
+}
+
+a {
+    text-decoration: none; /* remove underline from links */
+}
+
+a:hover {
+    color: #8b5bdb;
+}
+
+a#center {
+    display: block;
+    text-align: center;
+}
+
+#externalLinks {
+    position: static;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* Headers */
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2, h3 {
+    padding: .5em 0;
+    text-decoration: underline;
+}
+
+h3 {
+    clear: both;
+}
+
+h2.mainHeading, h3.mainHeading { /* index page spread love... try... headers */
+    font-family: "Italiana", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3.mainHeading {
+    padding-bottom: 22px;
+}
+
+/* Index page images */
+.grow:hover {
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); /* "grow" animation */
+}
+
+.mainImg {
+    width: 480px;
+    height: 314px;
+    margin: 0;
+}
+
+/* To style "brand" */
+.title {
+    display: block;
+    font-size: 2.1em;
+    text-align: center;
+    font-family: "Italiana", serif;
+    color: #4d004d;
+}
+
+ol li {
+    margin-left: 1em;
+}
+
+/* Recipes */
+
+h1#top.left_lighter, h1.left_lighter {
+    padding-top: 50px;
+}
+
+.moveRight {
+    padding: 4em;
+}
+
+.moveDown {
+    top: 447px; /* figcaption placement */
+}
+
+.measurements {
+    display: inline-block;
+    margin-top: 1em;
+    list-style-type: none;
+    position: static;
+    float: left;
+    width: 150px;
+    line-height: 1.25em;
+}
+
+.ingredients {
+    display: inline-block;
+    margin-top: 1em;
+    padding-top: .2em;
+    margin-right: 1em;
+    list-style-type: none;
+    position: static;
+    float: left;
+    width: 280px;
+    line-height: 1.3em;
+}
+
+.directions {
+    display: inline-block;
+    margin-top: 1em;
+    position: static;
+    float: left;
+    width: 440px;
+    line-height: 1.25em;
+}
+
+.notes {
+    clear: both;
+    list-style-type: disc;
+    margin-top: .5em;
+    position: static;
+}
+
+.left_lighter {
+    font-family: "Italiana", serif;
+    text-align: left;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+
+.resizeCookies {
+    width: 960px;
+    height: 450px;
+}
+
+figure {
+    display: block;
+    position: relative;
+    max-width: 960px;
+    float: left;
+}
+
+figcaption {
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.65);
+    font-weight: 200;
+    text-shadow: #1a1a1a;
+    color: white;
+    top: 435px;
+    padding: 10px 20px;
+    opacity: 0;
+    box-sizing: border-box;
+    width: 960px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+figure a {
+    font-size: .75em;
+}
+
+figcaption > a {
+    color: white;
+}
+
+figure:hover figcaption {
+
+    opacity: 1;
+}
+
+header img {
+    border: 1px solid black;
+}
+
+figure img {
+    border: none;
+    width: 960px;
+    height: 450px;
+}
+
+.attribution {
+    float: right; /* photo credit */
+    font-size: .5em;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+}
+
+ul li ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin-left: 1.5em;
+}
+
+/* Learn more page */
+
+.resizeLM {
+    width: 317px;
+    height: 277px;
+}
+
+#learnMore {
+    float: left;
+    width: 61%;
+    clear: right;
+}
+
+.learnMoreDeco {
+    color: #004d00;
+    text-decoration: none;
+}
+
+p {
+    clear: left;
+    margin: 1em;
+}
+
+p.clear {
+    width: 890px;
+}
+
+aside {
+    display: block;
+    float: left;
+    margin-top: 60px;
+    width: 350px;
+    height: 280px;
+    padding: 30px 10px 10px 10px;
+    border-left: 1px solid black;
+}
+
+/* Form page */
+h1#contact.left_lighter {
+    font-weight: 500; /* boldness of Contact Us */
+}
+
+#contact {
+    color: black;
+    padding-top: 1em;
+    margin: 1em 0;
+    text-align: left;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+fieldset p {
+    margin: 0;
+}
+
+label {
+    color: black;
+    float: left;
+    width: 8em;
+    text-align: right;
+}
+
+input {
+    width: 23em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+#button {
+    display: block;
+    width: 8em;
+    height: 2em;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: .25em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+#button:hover {
+    background-color: #660066; /* Button changes color when hovered over */
+    color: white; /* Font color changes to white when hovered over */
+}
+
+/* Success page */
+
+#success {
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/* Success check mark fade-in animation */
+
+#fadeIn {
+    margin: 50px 330px;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: fadein 1s linear forwards;
+    animation: fadein 1s linear forwards; /* animation name, duration, comes in and stays */
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0; /* starts at 0 */
+    }
+
+    100% {
+        opacity: 1; /* fully opaque when complete */
+    }
+}
